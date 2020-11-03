@@ -1,5 +1,5 @@
 {
-	"name": "Java 8",
+	"name": "docToolchain",
 	"build": {
 		"dockerfile": "Dockerfile",
 		"args": {
