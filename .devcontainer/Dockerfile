@@ -26,4 +26,4 @@ RUN if [ "${INSTALL_NODE}" = "true" ]; then su vscode -c "source /usr/local/shar
 # [Optional] Uncomment this line to install global node packages.
 # RUN su vscode -c "source /usr/local/share/nvm/nvm.sh && npm install -g <your-package-here>" 2>&1
 
-#RUN su vscode -c "doctoolchain . tasks"
+RUN su vscode -c "doctoolchain . tasks"
